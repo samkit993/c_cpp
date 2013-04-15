@@ -4,6 +4,7 @@
 #define MAXR 3
 #define MAXC 3
 #include<cmath>
+/* A Simple Matrix Inversion Program */
 using namespace std;
 
 void show_matrix(int a[MAXR][MAXC],int m,int n){
