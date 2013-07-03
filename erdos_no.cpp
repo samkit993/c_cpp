@@ -90,7 +90,7 @@ int main(){
                 if(authors_dict.end() == authors_dict.find(temp))
                     authors_dict[temp] = 999;
 
-                if(authors_dict[temp]==999)
+                if(authors_dict[temp]>=999)
                     cout << temp << " " << "infinity" << endl;
                 else
                     cout << temp << " " << authors_dict[temp] << endl;
